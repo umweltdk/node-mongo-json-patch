@@ -1,0 +1,41 @@
+{
+  "name": "mongo-json-patch",
+  "version": "1.0.0",
+  "description": "Convert JSON Patches (RFC 6902) to mongodb updates",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^0.17.0",
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "npm run lint && npm run tape",
+    "lint": "eslint --ignore-path .gitignore .",
+    "tape": "tape tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/umweltdk/mongo-json-patch.git"
+  },
+  "keywords": [
+    "json",
+    "patch",
+    "update",
+    "rfc6902",
+    "6902",
+    "mongo",
+    "mongodb",
+    "mongojs",
+    "rest",
+    "restful"
+  ],
+  "author": "Emil Bay <ebm@umwelt.dk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umweltdk/mongo-json-patch/issues"
+  },
+  "homepage": "https://github.com/umweltdk/mongo-json-patch"
+}
